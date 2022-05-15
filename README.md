@@ -1,3 +1,13 @@
+
+OpenWrt 编译配置生成器 https://hackyes.github.io/openwrt-menuconfig/index.html
+
+
+
+
+
+
+## 以下为原脚本作者编写
+
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
