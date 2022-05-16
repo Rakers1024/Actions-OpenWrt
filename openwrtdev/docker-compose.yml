@@ -1,0 +1,12 @@
+version: '3'
+services:
+  openwrtdev:
+    build: ./
+    image: openwrtdev:latest
+    container_name: openwrtdev
+    restart: always
+    privileged: true
+    tty: true
+    volumes:
+      - ./home:/home
+    command: '/bin/bash'
