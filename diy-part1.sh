@@ -18,7 +18,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/linkease/istore.git
-git clone https://github.com/lisaac/luci-lib-docker.git
-git clone https://github.com/lisaac/luci-app-dockerman.git
-git clone https://github.com/sirpdboy/netspeedtest.git
+git clone https://github.com/linkease/istore.git && mv istore/luci/luci-app-store package/ && rm -rf istore
+git clone https://github.com/lisaac/luci-lib-docker.git && mv luci-lib-docker/collections/luci-lib-docker package/ && rm -rf luci-lib-docker
+git clone https://github.com/lisaac/luci-app-dockerman.git && mv luci-app-dockerman/applications/luci-app-dockerman package/ && rm -rf luci-app-dockerman
+git clone https://github.com/sirpdboy/netspeedtest.git && mv netspeedtest/luci-app-netspeedtest package/ && rm -rf netspeedtest
