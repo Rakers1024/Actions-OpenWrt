@@ -1,3 +1,5 @@
+
+OpenWrt 编译配置生成器 https://hackyes.github.io/openwrt-menuconfig/index.html
 # Actions-Lean-OpenWrt
 
 - `master`是[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)编译.
