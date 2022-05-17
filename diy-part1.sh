@@ -21,5 +21,5 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 # sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-package' feeds.conf.default
 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/linkease/istore.git && mv istore/luci/luci-app-store package/ && rm -rf istore
-git clone https://github.com/sirpdboy/netspeedtest.git && mv netspeedtest/luci-app-netspeedtest package/ && rm -rf netspeedtest
+# git clone https://github.com/linkease/istore.git && mv istore/luci/luci-app-store package/ && rm -rf istore
+# git clone https://github.com/sirpdboy/netspeedtest.git && mv netspeedtest/luci-app-netspeedtest package/ && rm -rf netspeedtest
